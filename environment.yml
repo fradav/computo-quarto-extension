@@ -8,9 +8,13 @@ dependencies:
   - matplotlib
   - numpy
   - pandas
+  - python-kaleido
   - r-base
   - r-knitr
   - r-plotly
   - r-tidyverse
   - r-reticulate
-  - python=3.9
+  - r-webshot
+  - r-magick
+  - r-pdftools
+  - python=3.10
