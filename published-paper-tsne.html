@@ -2,13 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.262">
+<meta name="generator" content="quarto-1.2.267">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Laurens van der Maaten">
 <meta name="author" content="Geoffrey Hinton">
-<meta name="dcterms.date" content="2022-11-07">
+<meta name="dcterms.date" content="2022-11-08">
 <meta name="keywords" content="visualization, dimensionality reduction, manifold learning, embedding algorithms, multidimensional scaling">
 <meta name="description" content="This page is a reworking of the original t-SNE article using the Computo template. It aims to help authors submitting to the journal by using some advanced formatting features. We warmly thank the authors of t-SNE and the editor of JMLR for allowing us to use their work to illustrate the Computo spirit.">
 
@@ -201,7 +201,7 @@ ISSN 2824-7795</p>
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">November 7, 2022</p>
+        <p class="date">November 8, 2022</p>
       </div>
     </div>
                                     
@@ -548,17 +548,17 @@ fit_transform(array([[0., ..., 0.],
        [0., ..., 0.]]))</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>/home/runner/micromamba-root/envs/computobuild/lib/python3.10/site-packages/sklearn/manifold/_t_sne.py:810: FutureWarning:
+<pre><code>/home/runner/micromamba-root/envs/computo-quarto-extension/lib/python3.10/site-packages/sklearn/manifold/_t_sne.py:810: FutureWarning:
 
 The default learning rate in TSNE will change from 200.0 to 'auto' in 1.2.
 
-/home/runner/micromamba-root/envs/computobuild/lib/python3.10/site-packages/sklearn/manifold/_t_sne.py:996: FutureWarning:
+/home/runner/micromamba-root/envs/computo-quarto-extension/lib/python3.10/site-packages/sklearn/manifold/_t_sne.py:996: FutureWarning:
 
 The PCA initialization in TSNE will change to have the standard deviation of PC1 equal to 1e-4 in 1.2. This will ensure better convergence.
 </code></pre>
 </div>
 <div class="cell-output cell-output-stdout">
-<pre><code>____________________________________________________fit_transform - 6.6s, 0.1min
+<pre><code>____________________________________________________fit_transform - 6.1s, 0.1min
 ________________________________________________________________________________
 [Memory] Calling sklearn.manifold._mds.fit_transform...
 fit_transform(array([[0., ..., 0.],
@@ -566,7 +566,7 @@ fit_transform(array([[0., ..., 0.],
        [0., ..., 0.]]))</code></pre>
 </div>
 <div class="cell-output cell-output-stdout">
-<pre><code>___________________________________________________fit_transform - 64.0s, 1.1min</code></pre>
+<pre><code>___________________________________________________fit_transform - 62.8s, 1.0min</code></pre>
 </div>
 <div class="cell-output cell-output-display" data-execution_count="1">
 <pre><code>Text(0.5, 1.0, 'Visualization by Sammon mapping.')</code></pre>
@@ -777,17 +777,17 @@ fit_transform(array([[0.309917, ..., 0.157025],
        [0.516529, ..., 0.384298]], dtype=float32))</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>/home/runner/micromamba-root/envs/computobuild/lib/python3.10/site-packages/sklearn/manifold/_t_sne.py:810: FutureWarning:
+<pre><code>/home/runner/micromamba-root/envs/computo-quarto-extension/lib/python3.10/site-packages/sklearn/manifold/_t_sne.py:810: FutureWarning:
 
 The default learning rate in TSNE will change from 200.0 to 'auto' in 1.2.
 
-/home/runner/micromamba-root/envs/computobuild/lib/python3.10/site-packages/sklearn/manifold/_t_sne.py:996: FutureWarning:
+/home/runner/micromamba-root/envs/computo-quarto-extension/lib/python3.10/site-packages/sklearn/manifold/_t_sne.py:996: FutureWarning:
 
 The PCA initialization in TSNE will change to have the standard deviation of PC1 equal to 1e-4 in 1.2. This will ensure better convergence.
 </code></pre>
 </div>
 <div class="cell-output cell-output-stdout">
-<pre><code>____________________________________________________fit_transform - 1.6s, 0.0min
+<pre><code>____________________________________________________fit_transform - 1.5s, 0.0min
 ________________________________________________________________________________
 [Memory] Calling sklearn.manifold._mds.fit_transform...
 fit_transform(array([[0.309917, ..., 0.157025],
@@ -795,7 +795,7 @@ fit_transform(array([[0.309917, ..., 0.157025],
        [0.516529, ..., 0.384298]], dtype=float32))</code></pre>
 </div>
 <div class="cell-output cell-output-stdout">
-<pre><code>____________________________________________________fit_transform - 2.2s, 0.0min
+<pre><code>____________________________________________________fit_transform - 2.0s, 0.0min
 ________________________________________________________________________________
 [Memory] Calling sklearn.manifold._isomap.fit_transform...
 fit_transform(array([[0.309917, ..., 0.157025],
